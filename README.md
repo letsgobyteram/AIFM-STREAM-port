@@ -1,2 +1,2 @@
 # AIFM-STREAM-port
-A modified STREAM benchmark made to run on AIFM.
+A variant of the STREAM benchmark made to run on AIFM.
