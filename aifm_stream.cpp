@@ -47,7 +47,7 @@ extern "C"
 }
 
 # include <float.h>
-# include <iomanip.h>
+# include <iomanip>
 
 # include "array.hpp"
 # include "device.hpp"
