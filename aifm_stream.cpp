@@ -293,9 +293,9 @@ void do_work(far_memory::FarMemManager *manager)
 
         std::cout << std::fixed << std::setprecision(1) <<  "Array size = " << (unsigned long long) STREAM_ARRAY_SIZE << " (elements), Offset = " << OFFSET << " (elements)\n";
         std::cout << std::fixed << std::setprecision(1) << "Memory per array = " << BytesPerWord * ( (double) STREAM_ARRAY_SIZE / 1024.0/1024.0) << std::setprecision(1) <<
-                " MiB (= " << BytesPerWord * ( (double) STREAM_ARRAY_SIZE / 1024.0/1024.0/1024.0) << " GiB).\n";
+                " MiB (= " << BytesPerWord * ( (double) STREAM_ARRAY_SIZE / 1024.0/1024.0/1024.0) << " MiB).\n";
         std::cout << std::fixed << std::setprecision(1) << "Total memory required = " << std::setprecision(1) << (3.0 * BytesPerWord) * ( (double) STREAM_ARRAY_SIZE / 1024.0/1024.) <<
-                " MiB (= " << (3.0 * BytesPerWord) * ( (double) STREAM_ARRAY_SIZE / 1024.0/1024./1024.) << " GiB).\n";
+                " MiB (= " << (3.0 * BytesPerWord) * ( (double) STREAM_ARRAY_SIZE / 1024.0/1024./1024.) << " MiB).\n";
         std::cout << std::fixed << std::setprecision(1) << "Each kernel will be executed " << NTIMES << " times.\n";
         std::cout << std::fixed << std::setprecision(1) << " The *best* time for each kernel (excluding the first iteration)\n";
         std::cout << std::fixed << std::setprecision(1) << " will be used to compute the reported bandwidth.\n";
